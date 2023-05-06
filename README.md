@@ -18,3 +18,7 @@ Here is a small tool to study your times tables and get a few quick random math 
 ### To run
 
 - `make` will build the program, clear the terminal and begin executing it
+
+#### References
+
+- https://stackoverflow.com/questions/11271889/global-variable-count-ambiguous
