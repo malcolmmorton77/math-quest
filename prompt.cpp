@@ -89,6 +89,13 @@ void printTable()
   }
 }
 
+void cinError()
+{
+  std::cout << "Please answer with only numbers\n";
+  std::cin.clear();
+  std::cin.ignore(1000, '\n');
+}
+
 void randomize(int left[QSIZE], int right[QSIZE])
 {
   // assign one to left and one to right
@@ -127,7 +134,27 @@ bool getAnswers()
 {
   bool iscorrect = true;
   std::cout << "Enter in your answers with a space between each one, starting with the first question\n\n";
-  std::cin >> answers[0] >> answers[1] >> answers[2] >> answers[3] >> answers[4];
+  while (!(std::cin >> answers[0]))
+  {
+    cinError();
+  }
+  while (!(std::cin >> answers[1]))
+  {
+    cinError();
+  }
+  while (!(std::cin >> answers[2]))
+  {
+    cinError();
+  }
+  while (!(std::cin >> answers[3]))
+  {
+    cinError();
+  }
+  while (!(std::cin >> answers[4]))
+  {
+    cinError();
+  }
+
   for (int i = 0; i < QSIZE; i++)
   {
     if (answers[i] != left[i] * right[i])
