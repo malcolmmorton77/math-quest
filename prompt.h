@@ -11,7 +11,7 @@
 
 int table[TSIZE][TSIZE];
 int left[QSIZE], right[QSIZE]; // needed to define this at the top, globally
-int answers[QSIZE];
+int answers[QSIZE] = {0, 0, 0, 0, 0};
 
 /* initializeTable
 creates the table from scratch to store in memory*/
