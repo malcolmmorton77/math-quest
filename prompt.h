@@ -31,3 +31,7 @@ void printDailyQs();
 /* getAnswers
 asks for user input as a string, and checks if user is correct*/
 bool getAnswers();
+/* cinError
+displays message to user that they entered something other than integer
+clears the cin failbit*/
+void cinError();
