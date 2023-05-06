@@ -61,10 +61,28 @@ void initializeTable()
 
 void printTable()
 {
-  for (int i = 0; i < TSIZE; i++)
+  std::cout << std::setw(2) << "| " << std::setw(3) << " "; // empty slot for corner
+  std::cout << std::setw(2) << "| " << std::setw(3) << 1;
+  std::cout << std::setw(2) << "| " << std::setw(3) << 2;
+  std::cout << std::setw(2) << "| " << std::setw(3) << 3;
+  std::cout << std::setw(2) << "| " << std::setw(3) << 4;
+  std::cout << std::setw(2) << "| " << std::setw(3) << 5;
+  std::cout << std::setw(2) << "| " << std::setw(3) << 6;
+  std::cout << std::setw(2) << "| " << std::setw(3) << 7;
+  std::cout << std::setw(2) << "| " << std::setw(3) << 8;
+  std::cout << std::setw(2) << "| " << std::setw(3) << 9;
+  std::cout << std::setw(2) << "| " << std::setw(3) << 10;
+  std::cout << std::setw(2) << "| " << std::setw(3) << 11;
+  std::cout << std::setw(2) << "| " << std::setw(3) << 12;
+  std::cout << std::setw(2) << "| " << std::setw(3) << 13;
+  std::cout << std::setw(2) << "| " << std::setw(3) << 14;
+  std::cout << std::setw(2) << "| " << std::setw(3) << 15;
+
+  for (int i = 1; i < TSIZE; i++)
   {
     std::cout << std::endl;
-    for (int j = 0; j < TSIZE; j++)
+    std::cout << std::setw(2) << "| " << std::setw(3) << i;
+    for (int j = 1; j < TSIZE; j++)
     {
       std::cout << std::setw(2) << "| " << std::setw(3) << table[i][j];
     }
