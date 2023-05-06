@@ -9,7 +9,7 @@ Here is a small tool to study your times tables and get a few quick random math 
 ## prompt.cpp
 
 - Has a small menu and some functions to help
-- interactive with the user
+- interactive part of the code for the user
 
 ## prompt.h
 
@@ -18,7 +18,6 @@ Here is a small tool to study your times tables and get a few quick random math 
 ### To run
 
 - `make` will build the program, clear the terminal and begin executing it
-- pull the v1.0 build executable and `./quickfive.exe` in your terminal
 
 #### References
 
