@@ -22,3 +22,5 @@ Here is a small tool to study your times tables and get a few quick random math 
 #### References
 
 - https://stackoverflow.com/questions/11271889/global-variable-count-ambiguous
+- https://learn.microsoft.com/en-us/windows/wsl/install
+- https://forum.freecodecamp.org/t/c-c-what-about-pushing-the-compiled-executable/387367
