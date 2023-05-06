@@ -17,6 +17,6 @@ run:
 	clear
 	./run.exe
 
-clean_all: # clear current directory of any pesky object files and executables
+clean_all: # clear current directory of the executables
 	rm *.exe
 	clear

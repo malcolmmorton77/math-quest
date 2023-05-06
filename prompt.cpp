@@ -61,7 +61,7 @@ void initializeTable()
 
 void printTable()
 {
-  std::cout << std::setw(2) << "| " << std::setw(3) << " "; // empty slot for corner
+  std::cout << std::setw(2) << "| " << std::setw(3) << " X "; // empty slot for corner
   std::cout << std::setw(2) << "| " << std::setw(3) << 1;
   std::cout << std::setw(2) << "| " << std::setw(3) << 2;
   std::cout << std::setw(2) << "| " << std::setw(3) << 3;
