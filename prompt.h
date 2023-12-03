@@ -1,11 +1,3 @@
-#include <iostream>
-#include <cstdlib>
-#include <cstring>
-#include <math.h>
-#include <iomanip> // used to set width
-#include <random>
-#include <time.h>
-
 #define TSIZE 16 // no semicolon because reads literally from define statement, preprocessor
 #define QSIZE 5  // changes number of questions to ask the user each run through
 

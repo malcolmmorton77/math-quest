@@ -1,3 +1,10 @@
+#include <iostream>
+#include <cstdlib>
+#include <cstring>
+#include <math.h>
+#include <iomanip> // used to set width
+#include <random>
+#include <time.h>
 #include "prompt.h"
 
 /* Driver Class
